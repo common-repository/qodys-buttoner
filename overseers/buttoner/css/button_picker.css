@@ -1,0 +1,43 @@
+.tab-pane .row-fluid {
+	border-top:1px #c5c5c5 dashed;
+	border-left:1px #c5c5c5 dashed;
+}
+.image_holder {
+	border-bottom:1px #c5c5c5 dashed;
+	border-right:1px #c5c5c5 dashed;
+	padding:4px;
+	line-height:100px;
+	vertical-align:middle;
+}
+
+.image_holder label {
+	line-height:100px;
+	height:100px;
+	vertical-align:middle;
+}
+
+.button_radio {
+	display:none;
+}
+
+.image_holder img {
+	max-height:100px;
+	display:inline-block;
+	line-height:100px;
+	vertical-align:middle;
+}
+
+.image_holder:hover {
+	background-color:#EAEAEA;
+}
+
+.image_holder.chosen_button {
+	background-color: #E2FFE2;
+}
+.image_holder.chosen_button:hover {
+	background-color: #EBFFEB;
+}
+
+a.btn-success {
+	color:#fff;
+}
